@@ -1,0 +1,12 @@
+for  _  in range(3):
+  turn_left()
+  
+
+for _ in range(2):
+  for _ in range(3):
+    move()
+  turn_left()
+
+for _ in range(4):
+  turn_left()
+move()
